@@ -1,0 +1,136 @@
+@media (max-width: 768px) {
+   
+    .redes-sociais a i {
+        font-size: 20px; 
+        padding: 8px; 
+        width: 20px;
+        height: 20px; 
+    }
+
+   
+    .redesocial p, .contato p {
+        font-size: 16px; 
+        font-style: normal; 
+    }
+}
+
+@media (max-width: 480px) {
+   
+    .redes-sociais a i {
+        font-size: 18px;
+        padding: 6px; 
+        width: 18px; 
+        height: 18px; 
+    }
+
+    /* Textos de contato e redes sociais */
+    .redesocial p, .contato p {
+        font-size: 14px;
+    }
+    
+   
+    header, footer {
+        padding: 10px 5px;
+    }
+    
+    main {
+        width: 100%; 
+        padding: 10px; 
+    }
+    
+    h1, h2, h3 {
+        font-size: 1.2rem; 
+    }
+    
+    .projetos img {
+        margin-bottom: 10px; 
+    }
+
+
+    
+}
+
+@media (max-width: 768px) {
+    .redesocial p {
+        line-height: 1.2; 
+    }
+}
+
+/* Estilos básicos para todas as resoluções */
+.promo-message {
+    padding: 20px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: Gradient 15s ease infinite;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+@keyframes Gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Media Queries para ajustar para dispositivos menores */
+@media (max-width: 768px) {
+    .promo-message {
+        font-size: 16px; /* Tamanho da fonte ligeiramente menor para melhor leitura */
+        padding: 15px; /* Redução do padding */
+        animation: Gradient 12s ease infinite; /* Acelera um pouco a animação */
+    }
+}
+
+@media (max-width: 480px) {
+    .promo-message {
+        font-size: 14px; /* Tamanho da fonte mais pequeno para adequar a telas de smartphones */
+        padding: 10px; /* Menor padding para maximizar o espaço disponível */
+        animation: Gradient 10s ease infinite; /* Acelera mais a animação para manter o dinamismo */
+    }
+}
+/* Estilos básicos para todas as resoluções */
+.promo-message {
+    padding: 20px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: Gradient 15s ease infinite;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+@keyframes Gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Media Queries para ajustar para dispositivos menores */
+@media (max-width: 1280px) {
+    .promo-message {
+        font-size: 16px; /* Tamanho da fonte ligeiramente menor para melhor leitura */
+        padding: 15px; /* Redução do padding */
+        animation: Gradient 12s ease infinite; /* Acelera um pouco a animação */
+    }
+}
+
+

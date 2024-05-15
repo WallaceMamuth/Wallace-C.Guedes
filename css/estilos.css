@@ -1,0 +1,241 @@
+
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+        color: #333;
+        background-color: #f9f9f9;
+        line-height: 1.6;
+    }
+    header, footer {
+        background-color: #0056b3; /* Cor azul mais marcante */
+        color: #ffffff;
+        padding: 20px 0;
+        text-align: center;
+    }
+    header h1, header p {
+        margin: 0;
+        padding: 0;
+    }
+    main {
+        width: 85%;
+        max-width: 1200px;
+        margin: 20px auto;
+        padding: 20px;
+        background: #ffffff;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    section {
+        margin-bottom: 40px;
+    }
+    h1, h2 {
+        color: #333;
+    }
+    h1 {
+        font-size: 2.5em;
+    }
+    h2 {
+        font-size: 2em;
+        color: #0056b3; /* Coerente com a cor do cabeçalho */
+        text-align: center;
+        padding: 20px;
+    }
+    h3 {
+        font-size: 1.5em;
+        color: #333;
+        margin-bottom: 1px;
+    }
+
+    p {
+        margin: 0 0 10px;
+        font-size: 1.1em;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .itens ul {
+        list-style-type: none; 
+        padding: 0;
+    }
+    
+    .itens li {
+        background-color: #f9f9f9; 
+        border-bottom: 1px solid #ccc; 
+        padding: 10px; 
+        margin-bottom: 5px; 
+        font-weight: bold;
+    }
+    
+    .itens li strong {
+        color: #0056b3; 
+        font-weight: bold; /
+    }
+    
+    .promo-message {
+        padding: 20px;
+        color: white; /* Garante alta legibilidade */
+        font-size: 18px; /* Tamanho de fonte adequado */
+        font-weight: bold; /* Texto em negrito para destaque */
+        text-align: center; /* Centraliza o texto */
+        border-radius: 10px; /* Borda arredondada para estética suave */
+        background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+        background-size: 400% 400%;
+        animation: Gradient 15s ease infinite;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil para profundidade */
+    }
+    
+    @keyframes Gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+    
+    
+    
+    .itens {
+        display: flex;
+    }
+    .redesocial p {
+        transform: translateY(-20px);
+        line-height: 0.1;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        display: block; 
+        margin-bottom: 20px;
+    }
+
+    .projetos {
+        
+         margin: 0 0 5px; 
+          text-align: center; 
+        
+    }
+
+    .projetos p {
+        
+         margin: 0 0 5px; 
+          text-align: center; 
+          font-family: 'Times New Roman', Times, serif;
+          font-weight: bold;
+
+        
+    }
+
+    .projetos img {
+        
+            display: block; 
+            margin: 0 auto; 
+            max-width: 100%;
+            height: auto; 
+    }
+
+    .sejambemvindos p:first-of-type{
+        font-weight: bold;
+        font-style: italic;
+        font-size: xx-large;
+        text-align: center;
+
+
+    }
+    
+
+    .sejambemvindos p:nth-of-type(2){
+        font-weight: bold;
+        font-style: italic;
+        font-size: large
+
+
+    }
+
+    .sejambemvindos p:nth-of-type(3){
+        font-weight: bold;
+        font-style: italic;
+        font-size: large;
+        
+
+    }
+
+
+    footer p {
+        font-size: 1em;
+        z-index: 1000;
+        position: relative;
+        left: 0;
+         right: 0;
+        bottom: 0;
+        background-color: #333;
+        padding: 20px;
+    }
+
+    .contato{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 10vh; /* Usa a altura total da viewport para centralização vertical */
+        text-align: center;
+        padding: 30px;
+    }
+
+    .redesocial p {
+        font-weight: bold;
+        font-style: italic;
+        font-size: xx-large;
+    }
+
+    .redes-sociais {
+        display: flex;
+        gap: 20px;
+    
+    }
+    
+    .redes-sociais a i {
+        border: 1px solid #333;
+        border-radius: 50%;
+        width: 25px;
+        height: 25px;
+        padding: 10px;
+        text-align: center;
+        font-size: 26px;
+        transition: 0.3s;
+    }
+    
+    .redes-sociais a i:hover {
+        color: #9443d8;
+        border: 1px solid #9443d8;
+        transform: scale(1.5);
+    }
+    
+    .redesocial {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 10vh; /* Usa a altura total da viewport para centralização vertical */
+        text-align: center;
+    }
+    
+    .redesocial div {
+        margin-bottom: 20px; /* Espaço entre os ícones de redes sociais e os contatos */
+    }
+    
+    ul.redes-sociais {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        gap: 10px; /* Espaço entre os itens */
+    }
+    
+    ul.redes-sociais li {
+        display: inline;
+    }
+    
